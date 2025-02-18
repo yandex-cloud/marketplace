@@ -1,2 +1,1 @@
-# marketplace
-Yandex Cloud Marketplace repository
+# Yandex Cloud Marketplace repository
