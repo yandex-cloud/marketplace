@@ -293,6 +293,17 @@ function preCheck {
             esac
             ;;
 
+        "starter kit")
+            case "$2" in
+                "10")
+                    echo "OK"
+                    ;;
+                *)
+                    echo "FAIL"
+                    ;;
+            esac
+            ;;
+
         "Ubuntu")
             case "$2" in
                 "14.04"|"16.04"|"18.04"|"20.04"|"22.04"|"24.04")
