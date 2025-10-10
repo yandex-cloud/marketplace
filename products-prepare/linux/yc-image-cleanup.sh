@@ -155,7 +155,7 @@ function preCheck {
 
         "Rocky Linux")
             case "$2" in
-                "9.5")
+                "9.5"|"9.6")
                     echo "OK"
                     ;;
                 *)
