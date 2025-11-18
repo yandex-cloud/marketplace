@@ -49,7 +49,7 @@ function preCheck {
     case "$1" in
         "AlmaLinux")
             case "$2" in
-                8.*|9.*)
+                8.*|9.*|10.*)
                     echo "OK"
                     ;;
                 *)
@@ -177,7 +177,7 @@ function preCheck {
 
         "Fedora"|"Fedora Linux")
             case "$2" in
-                "28"|"29"|"30"|"31"|"32"|"33"|"34"|"35"|"37")
+                "28"|"29"|"30"|"31"|"32"|"33"|"34"|"35"|"37"|"42")
                     echo "OK"
                     ;;
                 *)
