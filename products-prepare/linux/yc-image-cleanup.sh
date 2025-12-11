@@ -58,6 +58,17 @@ function preCheck {
             esac
             ;;
 
+        "Alpine Linux")
+            case "$2" in
+                3.*)
+                    echo "OK"
+                    ;;
+                *)
+                    echo "FAIL"
+                    ;;
+            esac
+            ;;
+
         "ALT Server")
             case "$2" in
                 10*)
